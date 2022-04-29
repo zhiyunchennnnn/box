@@ -6,4 +6,8 @@ public class Box1 extends Box {
         super(10, 10, 10);
     }
 
+    @Override
+    public boolean isFit(int length, int width, int height) {
+        return super.isFit(length, width, height);
+    }
 }
